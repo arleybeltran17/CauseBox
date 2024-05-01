@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: aliceblue;
+}
+
+.menu {
+    width: 100%;
+    height: 20%;
+    background: #B6DBE8; 
+}
+
+.menu1 button {
+    margin: 6px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #B6DBE8;
+    position: relative;
+    top: -10%;
+    left: 30%;
+    width: 5%;
+    height: 16px;
+    border: none;
+    transition-duration: 1s;
+}
+
+.menu1 button:hover {
+    border-radius: 3px;
+    top: -3px;
+    left: 31%;
+    cursor: pointer;
+}
+
+.menu1 h1 {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.menu1{
+    width: 50%;
+    height: 10%;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+}
+
+.boton5:hover::after{
+    content: "Catalogo Donaciones";
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 55px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.boton6:hover::after{
+    content: "Registrarse";
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 55px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.boton7:hover::after{
+    content: "Iniciar Session";
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 55px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/* Estilo general */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2%;
+    margin-left: 29%;
+    overflow: hidden;
+}
+
+/* Elementos del carrusel */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Texto en el centro */
+.caption {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Botones de control */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
