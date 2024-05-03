@@ -1,0 +1,345 @@
+/*estilos generales*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: aliceblue;
+}
+/* Estilo para la capa de carga */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+/* Ocultar la capa de carga */
+#loading-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Estilo para el contenido principal */
+#main-content {
+    padding: 10px;
+}
+
+/*estilosdel menu*/
+.menu {
+    width: 100%;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.402); 
+    border-bottom: 1px solid #000;
+}
+.menu img{
+    position: relative;
+    left: 15%;
+}
+
+.menu1 button {
+    margin: 6px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+    top: -10%;
+    left: 30%;
+    width: 5%;
+    height: 16px;
+    border: none;
+    transition-duration: 1s;
+}
+
+.menu1 button:hover {
+    border-radius: 3px;
+    top: -3px;
+    left: 31%;
+    cursor: pointer;
+}
+
+.menu1 h1 {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.menu1{
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+
+.boton5:hover::after{
+    content: "Catalogo Donaciones";
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 55px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.boton6:hover::after{
+    content: "Registrarse";
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 55px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.boton7:hover::after{
+    content: "Inicio";
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 55px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    margin: 2%;
+    margin-left: 7%;
+
+}
+.cont3{
+    width: 90%;
+    height: 450px;
+    margin: 3%;
+    text-align: center;
+    padding: 12px;
+
+}
+
+
+.cont3 .label1{
+    position: relative;
+    right: 220px;
+}
+.cont3 .label2{
+    position: relative;
+    right: 205px;
+}
+
+.cont3 .input1{
+    width: 500px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: none;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.cont3 input::placeholder{
+    padding: 3px;
+}
+/*validacioon*/
+
+.success {color: rgb(0, 0, 0);}
+            .btn {
+                margin-bottom: 1rem;
+                background-color: steelblue;
+                padding: 0.70rem 1.50rem;
+                font-size: 18px;
+                cursor: pointer;
+                border-radius: 5px;
+}
+ .feedback{
+    margin-left: 4  6px;
+    max-width: 100%;
+    width: 100%;
+    background-color: gray;
+    padding: 5px;
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .success{
+    border: 2px solid greenyellow;
+  }
+
+  .error{
+    border: 2px solid tomato;
+  }
+
+  .feedback{
+    background: tomato;
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    border: 1px solid #000;
+    display: none;
+  }
+p{
+  margin-right: 18%;
+font-size: 13px;
+}
+/*cards */
+/* Estilos para el contenedor de las cards */
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan automáticamente */
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    max-width: 1200px; /* Establece un ancho máximo para las tarjetas */
+    margin: 0 auto; /* Centra el contenedor de las tarjetas en la página */
+}
+
+.card{
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 9px 0px;
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 200px;
+    height: auto;
+    background-color: #f5f5f5 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    margin-right: 15px;
+    opacity: 1;
+}
+.card--id{
+    color: #1f1f1f;
+    opacity: 50%;
+}
+
+.card--img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -38px inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card--info{
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+.card--subtittle{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        justify-content: flex-start;
+    }
+}
+
+/* footer */
+/* Estilos generales para el footer */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid #7f8c8d;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+

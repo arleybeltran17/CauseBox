@@ -5,22 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="img/logito.ico"/>
     <link rel="stylesheet" href="./css/style.css">
-    <title>CauseBox😸</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+    <title>CauseBox🙊</title>
 </head>
 <body>
+    <div id="loading-screen">
+        <div id="loading-content">
+            <img src="img/cargando.gif" alt="">
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div id="main-content">
+
     <header>
         <div class="menu">
-            <h1 class="animacion"><img src="img/Logito3.jpeg" width="170" height="150" alt=""> 
+            <h1 class="animacion"><img src="img/causebox1-Photoroom.png-Photoroom.png" width="170" height="140" alt=""> </h1>
             <div class="menu1">
-                <a href="Reto5.html">
+                <a href="Catalogo.html">
                     <button class="boton5" ><img src="img/catalogo.png" width="50" height="50"></button></a>
-                <a href="Reto6.html">
+                <a href="registrarse.html">
                     <button class="boton6"><img src="img/nota.png" width="50" height="50"></button></a>
-                <a href="Reto7.html">
+                <a href="iniciarSesion.html">
                     <button class="boton7"><img src="img/perfil-del-usuario.png" width="50" height="50"></button></a>
+            
             </div>
         </div>
     </header>
+
     <div class="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -48,6 +60,79 @@
         <button class="carousel-control prev" onclick="prevSlide()">&lt;</button>
         <button class="carousel-control next" onclick="nextSlide()">&gt;</button>
     </div>
+    <div class="cont">
+        <H2>Nosotros</H2> <br>
+        <p>Somos una fundacion la cual fue creada por una comunidad dispuesta a ayudar a las personas que necesitan ayuda 
+            con respecto a ayuda monetaria, alimenticia y ayudando a los animales mas indefensos</p>
+    </div>
+    <div class="cont1">
+        <div class="cont2">
+            <h3>hola pues</h3> <br>
+            <p> Somos una fundacion la cual fue creada por una comunidad dispuesta a ayudar a las personas que necesitan ayuda 
+                con respecto a ayuda monetaria, alimenticia y ayudando a los animales mas indefensos</p>
+        </div>
+        <div class="cont2">
+            <h3>hola pues</h3> <br>
+            <p> Somos una fundacion la cual fue creada por una comunidad dispuesta a ayudar a las personas que necesitan ayuda 
+                con respecto a ayuda monetaria, alimenticia y ayudando a los animales mas indefensos</p>
+        </div>
+        <div class="cont3">
+            <h3>hola pues</h3> <br>
+            <p> Somos una fundacion la cual fue creada por una comunidad dispuesta a ayudar a las personas que necesitan ayuda 
+                con respecto a ayuda monetaria, alimenticia y ayudando a los animales mas indefensos</p>
+        </div>
+    </div>
+    <div class="grafica1">
+        <div class="graficaCont">
+            <h1>Graficade estadisticas sobre los fondos recaudados.</h1>
+        </div>
+        <div class="graficaCont">
+            <section id="graph-section" class="section">
+                <h2>Estadísticas</h2>
+                <canvas id="miGrafico"></canvas>
+            </section>
+        </div>
+    
+</div>
+
+    <!-- footer de lapartte de abajo --> 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Información</h3>
+                <p>Dirección: Calle Ejemplo, 1234</p>
+                <p>Teléfono: +123 456 789</p>
+                <p>Email: contacto@ejemplo.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces útiles</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes sociales</h3>
+                <ul class="social-links">
+                    <li><a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="path/to/twitter-icon.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="path/to/instagram-icon.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="path/to/linkedin-icon.png" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</div>
+    
     <script src="js/index.js"></script>
+
+   
+
 </body>
 </html>
