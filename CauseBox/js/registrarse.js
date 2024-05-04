@@ -1,4 +1,5 @@
 
+
 const text = /[A-Za-z Á-Úá-úñÑ]{3,20}/;
 
 const form = document.getElementById("frmValidacion");
@@ -26,3 +27,6 @@ form.nombreOrganizacion.addEventListener('input', (e) => {
       feedbackNombreOrganizacion.textContent = "solo puede tener letras de 1 a 10";
     }
   });
+
+
+  

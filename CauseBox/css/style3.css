@@ -134,7 +134,7 @@ background: aliceblue;
     flex-wrap: wrap;
     margin: auto;
     width: 90%;
-    height: 70%;
+    height: 80%;
     align-items: center;
     padding: 40px 200px;
 }
@@ -213,6 +213,7 @@ footer {
     color: #ecf0f1;
     padding: 20px;
     text-align: center;
+    margin-top: 7.5%;
 }
 
 .footer-container {

@@ -97,7 +97,7 @@ background: aliceblue;
 }
 
 .boton6:hover::after{
-    content: "Registrarse";
+    content: "Iniciar Sesion";
     position: absolute;
     background-color: #000;
     color: #fff;
@@ -111,7 +111,7 @@ background: aliceblue;
 }
 
 .boton7:hover::after{
-    content: "Iniciar Session";
+    content: "Inicio";
     position: absolute;
     background-color: #000;
     color: #fff;
@@ -139,6 +139,14 @@ background: aliceblue;
     margin: 4%;
     padding: 2%;
     border-right: 1px solid #000;
+}
+.cont2 h3{
+    margin-right: 17%;
+    font-size: 30px;
+}
+
+.cont2 p{
+    font-size: 20px;
 }
 .cont3{
     width: 67%;

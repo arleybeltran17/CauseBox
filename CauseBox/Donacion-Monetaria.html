@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="img/logito.ico"/>
+    <link rel="stylesheet" href="./css/style4.css">
+    <title>CauseBox🙊</title>
+</head>
+<body>
+    <div id="loading-screen">
+        <div id="loading-content">
+            <img src="img/cargando.gif" alt="">
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div id="main-content">
+
+    <header>
+        <div class="menu">
+            <h1 class="animacion"><img src="img/causebox1-Photoroom.png-Photoroom.png" width="170" height="140" alt=""> </h1>
+            <div class="menu1">
+                <a href="Index.html">
+                    <button class="boton7"><img src="img/hogar.png" width="50" height="50"></button></a>
+            
+            </div>
+        </div>
+    </header>
+    <div class="cont1">
+        <div class="cont2">
+            <img src="img/Ayua-monetaria.jpeg" class="perrito1" width="555px" height="349px" > <br>
+            <p> Las fuertes subidas del costo de productos básicos como los alimentos y el combustible, combinadas con las guerras, inundaciones, terremotos que han atacado varias regiones, ponen en riesgo la vida de miles de familias.                                                                                                     APOYANOS CON TU DONACION                                                                            Tú también puedes ayudar a las familias que se encuentran al borde del abismo y que a menudo están expuestas a duras condiciones. Con tu donación ayudarás a brindar mantas, comida caliente, un techo y medicamentos para poder salvaguardar la vida de miles de familias que buscan una segunda oportunidad lejos de la violencia.</p>
+        </div>
+        <div class="cont3">
+            <h3>Donaciones </h3> <br>
+            <form action="index.html" novalidate id="Mascoticas">
+
+                <div id="nombreOrganizacion">
+                <label for="" class="label1">¿Cuanto Quieres Donar?</label><br>
+                    <input type="text" name="nombreOrganizacion" id="CantidadDonacion" class="input1" placeholder="ingrese el valor a donar"><br>
+                    <div class="feedback"></div><br>
+                </div>
+                
+                <label for="" class="label4">Metodo de pago</label><br>
+                    <select name="MetodoPago" id="MetodoPago"  class="input1">
+                    
+                        <option value="">--Seleccionar Opcion--</option>
+                        <option value="">Tarjeta Credito</option>
+                        <option value="">Tarjeta Debito  </option>
+                        <option value="">Nequi</option>
+                        <option value="">Daviplata</option>
+                        <option value="">PSE</option>
+                    </select><br><br>
+                    
+                <button type="submit" class="buton2" onclick="Registrar()">Donar</button>
+                
+            </form>
+                <div class="contForm" id="contForm">
+                    <div class="container">
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="info">
+                            Recaudado: $<span id="recaudado">0</span>
+                            Meta: $<span id="meta">10.000.000</span>
+                        </div>
+                    </div>
+                    
+            </div>
+
+        </div>
+    </div>
+    <!-- footer de lapartte de abajo --> 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Información</h3>
+                <p>Dirección: Calle 52</p>
+                <p>Teléfono: +57 3026584953</p>
+                <p>Email: CauseBox@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces útiles</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="registrarse.html">Registrar</a></li>
+                    <li><a href="iniciarSesion.html">Iniciar Sesion</a></li>
+                    <li><a href="Catalogo.html">Catalogo</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes sociales</h3>
+                <ul class="social-links">
+                    <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="img/X.avif" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="img/instagram.webp" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="img/linked.png" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</div>
+    
+
+    <script src="js/donacionA.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

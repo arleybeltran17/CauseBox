@@ -38,13 +38,13 @@
 
                 <div id="nombreOrganizacion">
                 <label for="" class="label1">Correo</label><br>
-                    <input type="text"class="input1" placeholder="ingrese el correo"><br>
+                    <input type="text" class="input1" id="nombreUsuario" placeholder="ingrese el correo"><br>
                     <div class="feedback"></div><br>
                 </div>
 
                 <label for="" class="label2">Contraseña </label><br>
-                    <input type="text"  class="input1" placeholder="ingrese el pais"><br><br>
-                <button type="submit" class="buton2">Registrarse</button>
+                    <input type="password"  class="input1" id="contraseña" placeholder="ingrese el pais"><br><br>
+                <button type="submit" class="buton2" onclick="IniciarSesion()">Iniciar Sesion</button>
 
             </form>
     </div>
@@ -53,26 +53,26 @@
         <div class="footer-container">
             <div class="footer-section">
                 <h3>Información</h3>
-                <p>Dirección: Calle Ejemplo, 1234</p>
-                <p>Teléfono: +123 456 789</p>
-                <p>Email: contacto@ejemplo.com</p>
+                <p>Dirección: Calle 52</p>
+                <p>Teléfono: +57 3026584953</p>
+                <p>Email: CauseBox@gmail.com</p>
             </div>
             <div class="footer-section">
                 <h3>Enlaces útiles</h3>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="registrarse.html">Registrar</a></li>
+                    <li><a href="iniciarSesion.html">Iniciar Sesion</a></li>
+                    <li><a href="Catalogo.html">Catalogo</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Redes sociales</h3>
                 <ul class="social-links">
-                    <li><a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="path/to/twitter-icon.png" alt="Twitter"></a></li>
-                    <li><a href="#"><img src="path/to/instagram-icon.png" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="path/to/linkedin-icon.png" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="img/X.avif" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="img/instagram.webp" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="img/linked.png" alt="LinkedIn"></a></li>
                 </ul>
             </div>
         </div>
@@ -83,7 +83,8 @@
     
 </div>
     
-    <script src="js/registrarse.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/iniciarSesion.js"></script>
+    
 </body>
 </html>

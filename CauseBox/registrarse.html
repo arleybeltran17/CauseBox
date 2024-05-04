@@ -33,9 +33,9 @@
     </header>
     <div class="cont1">
         <div class="cont2">
-            <h3>hola pues</h3> <br>
-            <p> Somos una fundacion la cual fue creada por una comunidad dispuesta a ayudar a las personas que necesitan ayuda 
-                con respecto a ayuda monetaria, alimenticia y ayudando a los animales mas indefensos</p>
+            <h3> Crea Tu Cuenta Con CauseBox </h3> 
+            <br>
+            <p> Registrate con nosotros y tendras la garantia de que tus donaciones llegaran a familias o animalitos que lo necesiten 😻</p>
         </div>
         <div class="cont3">
             <h3>Datos de tu organizacion </h3> <br>
@@ -62,25 +62,25 @@
                         <option value="">compañia politica  </option>
                         <option value="">entidad gubernamental  </option>
                     </select><br><br>
-                <div class="contForm">
+                <div class="contForm" id="contForm">
                     <h3>Datos del usuario </h3> <br>
                     <div class="contenidos">
                         <label for="" class="label5">nombre</label>
-                        <label for="" class="label6">apillido </label><br>
-                            <input type="text" placeholder="ingrese el nombre">
+                        <label for="" class="label6">apellido </label><br>
+                            <input type="text" placeholder="ingrese el nombre" id="nombre">
 
-                            <input type="text" placeholder="ingrese el apellido"><br><br>
+                            <input type="text" placeholder="ingrese el apellido" id="apellido"><br><br>
                     </div>
                     <label for="" class="label7">numero </label><br>
-                        <input type="text" class="input1" placeholder="ingrese el apellido"><br><br>
+                        <input type="text" class="input1" placeholder="ingrese su numero" id="numero"><br><br>
 
                     <label for="" class="label8">correo</label><br>
-                        <input type="text"  class="input1" placeholder="ingrese el correo"><br><br>
+                        <input type="text"  class="input1" placeholder="ingrese el correo" id="email"><br><br>
 
                     <label for="" class="label9">contraseña</label><br>
-                        <input type="text" class="input1" placeholder="ingrese el contraseña"><br><br>
+                        <input type="password" class="input1" placeholder="ingrese el contraseña" id="contraseña"><br><br>
             </div>
-                <button type="submit" class="buton2">Registrarse</button>
+                <button type="submit" class="buton2" onclick="Registrar()">Registrarse</button>
 
             </form>
         </div>
@@ -90,26 +90,26 @@
         <div class="footer-container">
             <div class="footer-section">
                 <h3>Información</h3>
-                <p>Dirección: Calle Ejemplo, 1234</p>
-                <p>Teléfono: +123 456 789</p>
-                <p>Email: contacto@ejemplo.com</p>
+                <p>Dirección: Calle 52</p>
+                <p>Teléfono: +57 3026584953</p>
+                <p>Email: CauseBox@gmail.com</p>
             </div>
             <div class="footer-section">
                 <h3>Enlaces útiles</h3>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="registrarse.html">Registrar</a></li>
+                    <li><a href="iniciarSesion.html">Iniciar Sesion</a></li>
+                    <li><a href="Catalogo.html">Catalogo</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Redes sociales</h3>
                 <ul class="social-links">
-                    <li><a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="path/to/twitter-icon.png" alt="Twitter"></a></li>
-                    <li><a href="#"><img src="path/to/instagram-icon.png" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="path/to/linkedin-icon.png" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="img/X.avif" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="img/instagram.webp" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="img/linked.png" alt="LinkedIn"></a></li>
                 </ul>
             </div>
         </div>
@@ -121,6 +121,7 @@
 </div>
     
     <script src="js/registrarse.js"></script>
+    <script src="js/iniciarSesion.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
