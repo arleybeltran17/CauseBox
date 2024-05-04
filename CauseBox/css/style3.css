@@ -83,7 +83,7 @@ background: aliceblue;
 }
 
 .boton5:hover::after{
-    content: "Catalogo Donaciones";
+    content: "Registrarse";
     position: absolute;
     background-color: #000;
     color: #fff;
@@ -97,7 +97,7 @@ background: aliceblue;
 }
 
 .boton6:hover::after{
-    content: "Registrarse";
+    content: "Iniciar Sesion";
     position: absolute;
     background-color: #000;
     color: #fff;
@@ -124,163 +124,87 @@ background: aliceblue;
     z-index: 1;
 }
 
-.cont1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 60%;
-    margin: 2%;
-    margin-left: 7%;
-
-}
-.cont3{
-    width: 90%;
-    height: 450px;
-    margin: 3%;
-    text-align: center;
-    padding: 12px;
-
-}
-
-
-.cont3 .label1{
-    position: relative;
-    right: 220px;
-}
-.cont3 .label2{
-    position: relative;
-    right: 205px;
-}
-
-.cont3 .input1{
-    width: 500px;
-    height: 45px;
-    border-radius: 5px;
-    border: 1px solid #000;
-    background: none;
-}
-button{
-    width: 100px;
-    height: 30px;
-    background: none;
-    border-radius: 3px;
-    border: 1px solid #000;
-}
-button:hover{
-    cursor: pointer;
-    transform: scale(1.3);
-    transition: 1s;
-}
-
-.cont3 input::placeholder{
-    padding: 3px;
-}
-/*validacioon*/
-
-.success {color: rgb(0, 0, 0);}
-            .btn {
-                margin-bottom: 1rem;
-                background-color: steelblue;
-                padding: 0.70rem 1.50rem;
-                font-size: 18px;
-                cursor: pointer;
-                border-radius: 5px;
-}
- .feedback{
-    margin-left: 4  6px;
-    max-width: 100%;
-    width: 100%;
-    background-color: gray;
-    padding: 5px;
-    font-size: 10px;
-    visibility: hidden;
-    opacity: 0;
-  }
-
-  .success{
-    border: 2px solid greenyellow;
-  }
-
-  .error{
-    border: 2px solid tomato;
-  }
-
-  .feedback{
-    background: tomato;
-    width: 300px;
-    border-radius: 5px;
-    position: relative;
-    left: 50px;
-    border: 1px solid #000;
-    display: none;
-  }
-p{
-  margin-right: 18%;
-font-size: 13px;
-}
 /*cards */
 /* Estilos para el contenedor de las cards */
 
-.card__container {
+.containerCards{
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan automáticamente */
     justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+    height: 70%;
     align-items: center;
-    background-color: #f1f1f1;
-    padding: 20px;
-    max-width: 1200px; /* Establece un ancho máximo para las tarjetas */
-    margin: 0 auto; /* Centra el contenedor de las tarjetas en la página */
+    padding: 40px 200px;
 }
 
-.card{
+
+
+.prendas{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    transition: 300ms;
     text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 9px 0px;
-    margin-top: 10px;
-    border-radius: 100px;
-    width: 200px;
-    height: auto;
-    background-color: #f5f5f5 ;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 12px;
-    margin-right: 15px;
-    opacity: 1;
-}
-.card--id{
-    color: #1f1f1f;
-    opacity: 50%;
+    border-radius: 13px;
+    box-shadow: 2px 5px 15px;
 }
 
-.card--img{
-    width: 150px;
-    height: 150px;
-    margin-top: 10px;
-    border-radius: 50%;
-    background-color: #f1f1f1;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -38px inset;
+.imgChaqueta{
     display: flex;
-    align-items: center;
     justify-content: center;
-
-}
-.card--info{
-    padding: 10px 0px;
-    margin: 20px 0px;
-}
-.card--subtittle{
-    font-weight: 700;
-    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px px #000);
 }
 
-
-
-@media (max-width: 768px) {
-    .container {
-        justify-content: flex-start;
-    }
+.imgChaqueta h2{
+    margin: 10px 0
 }
+
+.imgChaqueta p{
+    margin-bottom: 10px;
+}
+
+.btnContainer{
+    margin-bottom: 30px;
+}
+
+.btnContainer button{
+    padding: 7px 15px;
+    background-color: #ae2f00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.cards:hover .detalle {
+    background-size: cover;
+}
+
+
+.imgChaqueta:hover img{
+    transform: translateY(-20px);
+    background-size: cover;
+    transition: 1s;
+}
+
 
 /* footer */
 /* Estilos generales para el footer */

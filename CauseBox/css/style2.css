@@ -187,14 +187,14 @@ background: aliceblue;
     border: 1px solid #000;
     background: none;
 }
-button{
+.cont3 button{
     width: 100px;
     height: 30px;
     background: none;
     border-radius: 3px;
     border: 1px solid #000;
 }
-button:hover{
+.cont3 button:hover{
     cursor: pointer;
     background: cornflowerblue;
     transform: scale(1.3);
